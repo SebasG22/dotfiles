@@ -57,3 +57,12 @@ if ! package_is_installed "gcloud"; then
     install_package "google-cloud-sdk"
 fi
 
+if ! package_is_installed "insomnia"; then
+echo "deb https://dl.bintray.com/getinsomnia/Insomnia /" \
+    | sudo tee -a /etc/apt/sources.list.d/insomnia.list
+
+wget --quiet -O - https://insomnia.rest/keys/debian-public.key.asc \
+    | sudo apt-key add -
+    update &> /dev/null \
+        || print_error "insomnia (resync package index files)"
+install_package "insomnia"
