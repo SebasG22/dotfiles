@@ -352,4 +352,3 @@ show_spinner() {
     done
 
 }
-{"mode":"full","isActive":false}
