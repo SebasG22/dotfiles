@@ -28,10 +28,7 @@ main() {
 
     printf "\n"
 
-    install_npm_package "Typescript" "typescript"
-    install_npm_package "Angular CLI" "@angular/cli"
-    install_npm_package "NRWL Schematics" "@nrwl/schematics"
-    install_npm_package "Workbox Cli" "workbox-cli"
+    install_npm_package "Pnpm" "pnpm"
 
 }
 

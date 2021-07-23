@@ -104,6 +104,7 @@ alias zshconfig="code ~/.zshrc"
 alias ohmyzsh="code ~/.oh-my-zsh"
 
 source ~/.bash_aliases
+source ~/.kubectl_aliases
 source ~/.bash.local
 source ~/.bash_exports
 
