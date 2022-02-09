@@ -3,23 +3,12 @@
     "editor.formatOnPaste": false,
     "editor.multiCursorModifier": "ctrlCmd",
     "editor.snippetSuggestions": "top",
-    "workbench.colorTheme": "Default Light+",
     "editor.minimap.maxColumn": 80,
     "editor.minimap.renderCharacters": false,
     "editor.minimap.showSlider": "always",
     "tslint.autoFixOnSave": true,
-    "window.zoomLevel": 1,
     "editor.lineHeight": 24,
     "cSpell.language": "en,es",
-    "cSpell.userWords": [
-        "autenticación",
-        "backend",
-        "get"
-    ],
-    "editor.rulers": [
-        80,
-        120
-    ],
     "editor.formatOnSave": true,
     "vsicons.projectDetection.autoReload": true,
     "editor.fontSize": 16,
@@ -30,8 +19,85 @@
     "editor.fontLigatures": true,
     "breadcrumbs.enabled": false,
     "workbench.iconTheme": "vscode-icons",
-    "typescript.updateImportsOnFileMove.enabled": "always",
     "explorer.confirmDragAndDrop": false,
     "explorer.confirmDelete": false,
-    "html.format.wrapAttributes": "aligned-multiple"
+    "html.format.wrapAttributes": "aligned-multiple",
+    "typescript.updateImportsOnFileMove.enabled": "always",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "workbench.colorTheme": "Tomorrow Night Blue",
+  "cSpell.userWords": [
+    "Chainable",
+    "Ecommerce",
+    "FORMCONTROL",
+    "Pinebox",
+    "fieldname",
+    "microservice",
+    "minlength",
+    "tabindex"
+  ],
+  "terminal.external.windowsExec": "C:\\Windows\\System32\\wsl.exe",
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "editor.rulers": [
+    {
+      "column": 80,
+      "color": "#ff00ff"
+    },
+
+    {
+        "column": 120,
+        "color": "#ff0"
+      }
+    
+  ],
+  "[javascript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "remote.SSH.remotePlatform": {
+    "192.168.1.156": "linux",
+    "192.168.187.128": "linux",
+    "Local": "linux",
+    "yottabyte": "linux",
+    "anima": "linux",
+    "hacklangbox": "linux"
+  },
+  "wallaby.startAutomatically": false,
+  "git.ignoreWindowsGit27Warning": true,
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "workbench.sideBar.location": "right",
+  "editor.minimap.enabled": false,
+  "explorer.openEditors.visible": 0,
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "browse-lite.format": "png",
+  "browse-lite.quality": 100,
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "liveServer.settings.donotShowInfoMsg": true,
+  "window.zoomLevel": 2,
+  "workbench.editorAssociations": {
+    "*.ipynb": "jupyter.notebook.ipynb"
+  },
+  "[proto3]": {
+    "editor.defaultFormatter": "xaver.clang-format"
+  },
+  "tabnine.experimentalAutoImports": true,
+  "[yaml]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "sqltools.useNodeRuntime": true
 }
