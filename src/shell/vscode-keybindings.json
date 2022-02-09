@@ -1,23 +1,32 @@
-// Place your key bindings in this file to overwrite the defaults
+// Place your key bindings in this file to override the defaultsauto[]
 [
     {
-        "key": "alt+right",
-        "command": "cursorWordPartRight",
-        "when": "textInputFocus"
+        "key": "ctrl+shift+'",
+        "command": "workbench.action.terminal.new",
+        "when": "terminalProcessSupported"
     },
     {
-        "key": "ctrl+alt+right",
-        "command": "-cursorWordPartRight",
-        "when": "textInputFocus"
+        "key": "ctrl+tab",
+        "command": "workbench.action.terminal.focusNext",
+        "when": "terminalFocus"
     },
     {
-        "key": "alt+left",
-        "command": "cursorWordPartStartLeft",
-        "when": "textInputFocus"
+        "key": "ctrl+shift+tab",
+        "command": "workbench.action.terminal.focusPrevious",
+        "when": "terminalFocus"
     },
     {
-        "key": "ctrl+alt+left",
-        "command": "-cursorWordPartStartLeft",
-        "when": "textInputFocus"
+        "key": "ctrl+n",
+        "command": "workbench.action.terminal.new",
+        "when": "terminalFocus"
+    },
+    {
+        "key": "ctrl+w",
+        "command": "workbench.action.terminal.kill",
+        "when": "terminalFocus"
+    },
+    {
+        "key": "ctrl+alt+z",
+        "command": "workbench.action.toggleMaximizedPanel"
     }
 ]
